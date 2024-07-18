@@ -5,8 +5,12 @@ from email.mime.base import MIMEBase
 from email import encoders
 
 def send(filename):
-    from_add = 'anusin220@gmail.com'
-    to_add = 'varg36921@gmail.com'
+
+    from_add = 'mygalaxym205@gmail.com'
+    to_add = 'ankurnayak2744@gmail.com'
+    
+    # from_add = 'anusin220@gmail.com'
+    # to_add = 'varg36921@gmail.com'
     subject = 'Finance Stock Report'
 
     msg = MIMEMultipart()
